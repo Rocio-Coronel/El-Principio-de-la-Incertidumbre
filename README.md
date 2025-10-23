@@ -1,4 +1,4 @@
- 🔮 El principio de la incertidumbre
+## 🔮 El principio de la incertidumbre
 
 **El principio de la incertidumbre** es una aplicación web interactiva desarrollada en **React** que te permite explorar el universo del **Tarot**, donde las cartas se convierten en una puerta para conocer a las **mujeres del mundo de la ciencia y la tecnología** —nuestras **diosas contemporáneas 👩‍🔬**.
 
@@ -34,35 +34,8 @@ Desarrollar una aplicación web en React que permita:
 - Interfaz limpia e intuitiva con navegación fluida y sin recargas innecesarias.
 
 ---
+## 🧩 Instalación y Ejecución
 
-## 🧭 Estructura de la API de Tarot
-
-La aplicación consume la siguiente API pública:  
-`https://6872278c76a5723aacd3cbb3.mockapi.io/api/v1/tarot`
-
-Cada carta tiene esta estructura:
-
-```json
-{
-  "id": "1",
-  "arcaneNumber": "0",
-  "arcaneName": "El Loco",
-  "arcaneDescription": "Descripción detallada del significado de la carta.",
-  "arcaneImage": {
-    "imageSrc": "URL de la imagen de la carta",
-    "author": "Autor de la imagen",
-    "license": "Licencia de uso"
-  },
-  "goddessName": "Nombre de la diosa contemporánea asociada",
-  "goddessDescription": "Descripción biográfica o información relevante sobre la diosa contemporánea.",
-  "goddessImage": {
-    "imageSrc": "URL de la imagen de la diosa",
-    "author": "Autor de la imagen",
-    "licenseUrl": "URL de la licencia de uso"
-  }
-}
-
-🧩 Instalación y Ejecución
 
 🔧 Cómo clonar y ejecutar el proyecto
 
@@ -89,8 +62,9 @@ npm run dev
 Abre el navegador y visita:
 
 http://localhost:5173
+---
 
-🎴  Funcionalidad
+## 🎴  Funcionalidad
  Visualización básica de cartas
 
 Mostrar todas las cartas (GET a la API).
@@ -99,23 +73,31 @@ Navegar a la página de detalle al hacer clic.
 
 Hooks utilizados: useEffect, useState, useParams.
 
+---
 
-👩‍💻 Autores
+##  👩‍💻 Autores
 
-Rocío Coronel – Desarrollo, diseño y estructura del proyecto.
+**Rocío Coronel – Desarrollo, diseño y estructura del proyecto.**
 
-@MAlexGG – Colaborador y desarrollador de la API pública de tarot.
+**@MAlexGG -Colaboradora y desarrolladora de a API pública de tarot.**
 
-📸 Demo del pryecto
 
-![Demo del proyecto]("../assets/img/demo_el-principio.gif")
+---
 
-🪪 Licencia
+## 📸 Demo del pryecto
+
+![Demo del proyecto]("../assets/img/DEMO.gif")
+
+---
+
+## 🪪 Licencia
 
 Este proyecto se publica bajo la licencia MIT.
 Puedes usarlo, modificarlo y compartirlo libremente dando crédito a los autores.
 
-💖 Agradecimientos
+---
+
+## 💖 Agradecimientos
 
 Gracias a Factoria F5 por su apoyo, formación y a @MAlexGG por ofrecer la API que hace posible este proyecto.
 Y a todas las diosas contemporáneas que inspiran este tarot tecnológico 🌍✨
