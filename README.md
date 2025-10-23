@@ -91,6 +91,9 @@ Hooks utilizados: useEffect, useState, useParams.
 
 ![Demo del proyecto](./src/assets/img/demo.gif)
 
+ ![Demo del proyecto](https://imgur.com/a/ffdcZi6)
+
+
 ---
 
 ## 🪪 Licencia
