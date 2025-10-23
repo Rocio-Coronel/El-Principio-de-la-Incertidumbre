@@ -86,7 +86,7 @@ Hooks utilizados: useEffect, useState, useParams.
 
 ## 📸 Demo del pryecto
 
-
+Demo del proyecto : https://imgur.com/a/ffdcZi6
 ![Demo del proyecto](https://github.com/Rocio-Coronel/El-Principio-de-la-Incertidumbre/blob/main/src/assets/img/demo.gif?raw=true)
 
 ![Demo del proyecto](./src/assets/img/demo.gif)
