@@ -1,0 +1,55 @@
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+:root {
+  /* Colores */
+--color-eerie-black :  #1F1F1F;
+--color-rosewood: #5C1111;
+--color-blue-light: #9FD7F3;
+--color-auburn: #92C1DE;
+--color-payne-gray: #768CA7;
+--color-powder-blue: #B5CDD3;
+--color-silver: #CCCCCC;
+--color-white-smoke: #F5F5F5;
+
+
+}
+
+/* Estilos base del body */
+body {
+  margin: 0;
+  font-family: var(--font-truculenta), sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-nebula-black);
+  color: var(--color-moonlight-linen);
+  line-height: 1.5;
+}
+
+
+
+/* Links sin subrayado por defecto */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Botones sin estilos por defecto */
+button {
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}

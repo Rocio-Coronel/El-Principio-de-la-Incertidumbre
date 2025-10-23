@@ -1,0 +1,154 @@
+.grid-container {
+  min-height: 200vh;
+  background-color: #1F1F1F;
+}
+
+
+.grid-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem 1rem 1rem;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+.grid-header-line {
+  flex: 1;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #86BCDE, transparent);
+  max-width: 600px;
+}
+
+.grid-header-line-left {
+  background: linear-gradient(to right, transparent, #86BCDE);
+}
+
+.grid-header-line-right {
+  background: linear-gradient(to left, transparent, #86BCDE);
+}
+
+
+.grid-title {
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: 'Pompiere', cursive;
+  color: #86BCDE;
+  margin: 0;
+  letter-spacing: 0.1em;
+  white-space: nowrap;
+}
+
+
+.grid-description {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+}
+
+.grid-description-primary {
+  color: #e2e8f0;
+  font-family: 'Pompiere', cursive;
+  font-size: 2.5rem;
+  max-width: 92rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  line-height: 1.6;
+}
+
+.grid-description-secondary {
+  color: #e2e8f0;
+  opacity: 0.9;
+  font-family: 'Pompiere', cursive;
+  font-size: 1.125rem;
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  line-height: 1.6;
+}
+
+.grid-highlight {
+  color: #5c93c0;
+  font-weight: 500;
+}
+
+
+
+.grid-loading,
+.grid-error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.grid-loading-content,
+.grid-error-content {
+  text-align: center;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.grid-spinner {
+  animation: spin 1s linear infinite;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  border-width: 2px;
+  border-style: solid;
+  border-color: transparent;
+  border-bottom-color: #86BCDE;
+  margin: 0 auto 1rem;
+}
+
+.grid-loading-text {
+  color: #e2e8f0;
+  font-family: 'Pompiere', cursive;
+  margin: 0;
+}
+
+
+.grid-error-text {
+  color: #fc8181;
+  font-family: 'Pompiere', cursive;
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+}
+
+.grid-error-button {
+  background-color: #86BCDE;
+  color: #0f0f0f;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  font-family: 'Pompiere', cursive;
+  transition: background-color 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.grid-error-button:hover {
+  background-color: #6ba3c5;
+}
+
+
+.grid-empty {
+  text-align: center;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.grid-empty-text {
+  color: #e2e8f0;
+  font-family: 'Pompiere', cursive;
+  margin: 0;
+}
+
