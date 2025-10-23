@@ -86,7 +86,8 @@ Hooks utilizados: useEffect, useState, useParams.
 
 ## 📸 Demo del pryecto
 
-![Demo del proyecto]("../assets/img/DEMO.gif")
+
+![Demo del proyecto]("src/assets/img/DEMO.gif")
 
 ---
 
